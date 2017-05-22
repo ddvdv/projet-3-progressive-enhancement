@@ -5,9 +5,12 @@ font-family: 'Slabo 27px', serif;
 body {
 	width: 90%;
 	margin: auto;
+	background-image: url(mars.jpg);
+	background-position: cover;
 }
 
-p {
+
+p, table, ul {
 	font-size: 1.2em;
 	color: #555F61;
 	line-height: 150%;
@@ -31,4 +34,19 @@ a:hover {
 	color: #555F61;
 	background-color: #a6eaa8;
 	border-radius: 3px;
+}
+
+q, blockquote {
+	display: block;
+	width: 50%;
+	margin: auto;
+	font-size: 1.9em;
+	background-color: #e5e5e5;
+	border-radius: 3px;
+	padding: 10px;
+	padding-left: 30px;
+	border-left: 3px solid #aa3311;
+	margin-top: 80px;
+	margin-bottom: 80px;
+
 }
