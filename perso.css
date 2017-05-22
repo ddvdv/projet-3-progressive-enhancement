@@ -1,0 +1,34 @@
+* {
+font-family: 'Slabo 27px', serif;
+}
+
+body {
+	width: 90%;
+	margin: auto;
+}
+
+p {
+	font-size: 1.2em;
+	color: #555F61;
+	line-height: 150%;
+	margin-top: 2em;
+}
+
+a {
+	padding: 3px;
+} 
+
+a:link {
+	color: #59e559;
+}
+
+a:visited {
+	color: #b0f4b5;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #555F61;
+	background-color: #a6eaa8;
+	border-radius: 3px;
+}
