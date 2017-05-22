@@ -1,5 +1,6 @@
 * {
-font-family: 'Slabo 27px', serif;
+	font-family: 'Slabo 27px', serif;
+	color: #555F61;
 }
 
 body {
@@ -36,7 +37,7 @@ a:hover {
 	border-radius: 3px;
 }
 
-q, blockquote {
+q {
 	display: block;
 	width: 50%;
 	margin: auto;
@@ -45,8 +46,65 @@ q, blockquote {
 	border-radius: 3px;
 	padding: 10px;
 	padding-left: 30px;
-	border-left: 3px solid #aa3311;
 	margin-top: 80px;
 	margin-bottom: 80px;
+	font-style: italic;
+	font-variant: small-caps;
+}
 
+.fermier {
+	border-left: 3px solid #aa3311;
+}
+
+.villageois {
+	border-left: 3px solid #e03a77;
+}
+
+header p {
+	background-color: yellow;
+}
+
+em.mal {
+	color: red;
+}
+
+em.bien {
+	color: green;
+}
+
+tr:nth-of-type(even){
+	background-color: grey;
+}
+
+tr:nth-of-type(odd){
+	background-color: black;
+}
+
+li{
+	padding-top: 30px;
+}
+
+li:nth-of-type(1){
+	background-image: url(bien.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	padding-right: 30px;
+}
+
+li:nth-of-type(2){
+	background-image: url(mal.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	padding-right: 30px;
+}
+
+li:nth-of-type(3){
+	background-image: url(chat.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	padding-right: 30px;
+}
+
+blockquote{
+		font-weight: bold;
 }
