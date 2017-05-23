@@ -1,5 +1,4 @@
 * {
-	font-family: 'Slabo 27px', serif;
 	color: #555F61;
 }
 
@@ -10,8 +9,13 @@ body {
 	background-position: cover;
 }
 
+h1, h2 {
+	font-family: 'Kumar One', cursive;
+}
 
-p, table, ul {
+
+p, table, ul, figcaption, figure, blockquote {
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.2em;
 	color: #555F61;
 	line-height: 150%;
