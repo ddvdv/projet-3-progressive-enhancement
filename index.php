@@ -3,6 +3,8 @@
 <html lang="fr">
    <head>
       <meta charset="utf-8">
+      <meta name="keywords" content="meaning of life, metallica">
+      <meta name="author" content="John Daddy">
       <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Kumar+One" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="normalize.css">
@@ -47,6 +49,8 @@
       <h2>“Est-ce un <em class="bien">Bien</em>? Est-ce un <em class="mal">Mal</em>? Je ne sais pas.”</h2>
 
       <p>Une histoire chinoise célèbre illustre parfaitement ce propos.</p>
+
+      <h2>Le fermier qui dit "ça dépend"</h2>
 
       <figure>
          <img src="https://cdn-images-1.medium.com/max/800/1*IQqkmPXYZuJViY5p-ymk0A.jpeg" alt="Le vieux fermier chinois"/>
