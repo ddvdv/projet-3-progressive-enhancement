@@ -1,0 +1,23 @@
+body {
+	width: 800px;
+	margin: auto;
+	font-size: 18px;
+}
+
+img {
+	display: block;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+img:nth-of-type(odd){
+	float: left;
+}
+
+img:nth-of-type(even){
+	float: right;
+}
+
+h2, h3 {
+	clear: both;
+}
