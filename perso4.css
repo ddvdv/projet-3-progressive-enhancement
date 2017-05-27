@@ -1,10 +1,22 @@
 body {
+	font-family: 'Khula', sans-serif;
+}
+
+#pull-right {
+	display: inline-block;
+	height: 40px;
+	vertical-align: middle;
+}
+
+#pull-right a{
+	display: inline-block;
+	line-height: 40px;
+	vertical-align: middle;
 }
 
 .container, nav{
 	margin: auto;
-	width: 80%;
-	min-width: 300px;
+	min-width: 530px;
 	max-width: 900px;
 	
 }
@@ -17,8 +29,15 @@ header {
 #first, #third {
  	background-color: #1F93CC;
  	color: white;
- 	height: 300px;
  	text-align: center;
+}
+
+#first {
+	height: 200px;
+}
+
+#third {
+	height: 350px;
 }
 
 #second, #fourth {
@@ -36,19 +55,20 @@ header {
 nav {
 	color: white;
 	height: 40px;
-	display: block;
 	vertical-align: middle;
 }
 
-nav ul {
-	display: block;
+ul {
+	display: inline-block;
+	width: 80%;
 	padding: 0px;
+	margin: 0px;
 	line-height: 40px;
 	list-style: none;
 	vertical-align: middle;
 }
 
-nav li {
+li {
 	display: inline-block;
 	vertical-align: middle;
 	padding-right: 10px	; 
@@ -78,6 +98,24 @@ a{
 	padding-top: 30px;
 	height: 100px;
 	width: 80%;
+}
+
+#button-orange{
+	background-color: #DD9335;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	height: 35px;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.col{
+	text-align: left;
+	width: 50%;
 }
 
 #logo{
