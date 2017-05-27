@@ -1,5 +1,6 @@
 body {
 	font-family: 'Khula', sans-serif;
+	font-size: 0.7em;
 }
 
 #pull-right {
@@ -14,7 +15,7 @@ body {
 	vertical-align: middle;
 }
 
-.container, nav{
+.container, nav, .central{
 	margin: auto;
 	min-width: 530px;
 	max-width: 900px;
@@ -37,7 +38,7 @@ header {
 }
 
 #third {
-	height: 350px;
+	height: 250px;
 }
 
 #second, #fourth {
@@ -68,8 +69,40 @@ ul {
 	vertical-align: middle;
 }
 
+.P {
+	box-sizing: border-box;
+	color: white;
+	background-color: #CC5D39;
+	border-radius: 20px;
+	padding-top: 3px;
+	font-size: 20px;
+	font-weight: bold;
+	height: 25px;
+	line-height: 25px;
+	width: 25px;
+	vertical-align: middle;
+	justify-content: center;
+}
+ .P + p {
+ 	color: #CC5D39;
+ 	font-weight: bold;
+ 	vertical-align: middle;
+ 	margin-left: 10px;
+ 	margin-bottom: 30px;
+ }
+#sixth .central .row {
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+#sixth ul {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
 li {
-	display: inline-block;
+	display: inline;
 	vertical-align: middle;
 	padding-right: 10px	; 
 }
@@ -88,24 +121,46 @@ a{
 #dude{
 	float: left;
 	height: 150px;
-	margin-top: 50px;
+	margin-top: 20px;
+}
+
+h1 {
+	padding-top: 40px;
+	margin-top: 0px;
 }
  
-.central .row{
+#fifth .central .row1{
 	display: flex;
 	justify-content: space-around;
 	margin: auto;
 	padding-top: 30px;
-	height: 100px;
-	width: 80%;
 }
 
-#button-orange{
-	background-color: #DD9335;
+#fifth .central .row2{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	padding-top: 30px;
+}
+
+.button{
+	margin-top: 10px;
 	color: white;
 	border: 1px solid white;
 	border-radius: 5px;
 	height: 35px;
+}
+
+.central .row .button {
+	width: 100px;
+}
+
+.orange {
+	background-color: #DD9335;
+}
+
+.blue{
+	background-color: #29587E;
 }
 
 .row {
@@ -113,9 +168,13 @@ a{
 	justify-content: space-between;
 }
 
+h3 {
+	margin-top: 30px;
+}
+
 .col{
 	text-align: left;
-	width: 50%;
+	width: 45%;
 }
 
 #logo{
