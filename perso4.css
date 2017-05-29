@@ -1,10 +1,10 @@
 body {
 	font-family: 'Khula', sans-serif;
-	font-size: 0.7em;
+	font-size: 0.8em;
 }
 
 #pull-right {
-	display: inline-block;
+	float: right;
 	height: 40px;
 	vertical-align: middle;
 }
@@ -51,6 +51,10 @@ header {
 	background-color: #eeeeee;
 	color: #D9DCDE;
 	text-align: center;
+}
+
+#first h1, #first h2, #first button {
+	margin-right: 100px;
 }
 
 nav {
@@ -125,6 +129,8 @@ a{
 }
 
 h1 {
+	display: block;
+	justify-content: center;
 	padding-top: 40px;
 	margin-top: 0px;
 }
